@@ -15775,10 +15775,7 @@ body {
   margin: 0;
 }
 body #section1 {
-  border: red solid;
-}
-body #section1 img {
-  border: solid red;
+  border: none;
 }
 body #section1 #texte {
   border: solid yellow 3px;
@@ -15793,7 +15790,7 @@ body #section1 #texte {
 body #section1 #texte p {
   font-size: 33px;
   text-align: center;
-  font-family: flat;
+  font-family: bilou4;
   color: white;
   font-style: italic;
   margin-left: 280px;
@@ -15828,6 +15825,7 @@ body #section1 #texte .span4 button:hover {
   background-color: red;
 }
 body #section1 #carouselExampleSlidesOnly #sectionnav #nav {
+  border: solid green 20px;
   position: absolute;
   bottom: 750px;
   left: 190px;
@@ -15860,6 +15858,40 @@ body #section1 #carouselExampleSlidesOnly .carousel-inner {
 body #section1 #carouselExampleSlidesOnly .carousel-inner .carousel-item img {
   filter: brightness(10%) blur(6px);
   width: 100%;
+}
+body #section2 {
+  border: red solid;
+  background-image: url(../../public/images/main_bg.jpg);
+}
+body #section2 .section21 {
+  background-color: white;
+  border: solid blue;
+  margin-top: 30px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+body #section2 .section21 .img1 {
+  border: red solid;
+  position: absolute;
+  top: 0px;
+}
+body #section2 .section21 h3 {
+  font-style: italic;
+  font-family: bilou2;
+  border: dotted red;
+  text-align: center;
+}
+body #section2 .section21 h3 .span1 {
+  color: red;
+}
+body #section2 .section21 p {
+  border: solid blue;
+  margin-left: 260px;
+  margin-right: 260px;
+  text-align: center;
+}
+body #section2 .section21 p .span1 {
+  color: red;
 }
 
 /*# sourceMappingURL=style.css.map */
