@@ -9876,7 +9876,7 @@ h3 {
   }
 }
 @font-face {
-  font-family: "bilou";
+  font-family: "flat";
   src: url("../../public/fonts/Flaticon.woff");
 }
 @font-face {
@@ -9884,12 +9884,16 @@ h3 {
   src: url("../../public/fonts/bilou.woff");
 }
 @font-face {
-  font-family: "bilou3";
-  src: url("../../public/fonts/suck.tff");
+  font-family: "suck";
+  src: url("../../public/fonts/suck.ttf");
 }
 @font-face {
   font-family: "bilou4";
-  src: url("../../public/fonts/bilou.woff");
+  src: url("../../public/fonts/Designero.ttf");
+}
+@font-face {
+  font-family: "splash";
+  src: url("../../public/fonts/Splatch.ttf");
 }
 /*!
  * Font Awesome Free 5.12.0 by @fontawesome - https://fontawesome.com
@@ -15768,7 +15772,94 @@ readers do not read off random characters that represent icons */
 }
 
 body {
-  font-family: bilou4;
+  margin: 0;
+}
+body #section1 {
+  border: red solid;
+}
+body #section1 img {
+  border: solid red;
+}
+body #section1 #texte {
+  border: solid yellow 3px;
+  position: absolute;
+  bottom: 10px;
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+body #section1 #texte p {
+  font-size: 33px;
+  text-align: center;
+  font-family: flat;
+  color: white;
+  font-style: italic;
+  margin-left: 280px;
+  margin-right: 300px;
+}
+body #section1 #texte p .span1 {
+  color: red;
+  font-family: flat;
+  font-size: 59px;
+}
+body #section1 #texte p .span2 {
+  font-size: 49px;
+}
+body #section1 #texte p .span3 {
+  font-size: 49px;
+}
+body #section1 #texte p .span5 {
+  font-size: 59px;
+}
+body #section1 #texte .span4 {
+  display: flex;
+  justify-content: space-between;
+  border: red solid;
+}
+body #section1 #texte .span4 button {
+  border-radius: 26px;
+  height: 43px;
+  border: none;
+  margin: 5px;
+}
+body #section1 #texte .span4 button:hover {
+  background-color: red;
+}
+body #section1 #carouselExampleSlidesOnly #sectionnav #nav {
+  position: absolute;
+  bottom: 750px;
+  left: 190px;
+}
+body #section1 #carouselExampleSlidesOnly #sectionnav #nav #navbarSupportedContent .row .col-5 {
+  display: flex;
+  align-items: center;
+}
+body #section1 #carouselExampleSlidesOnly #sectionnav #nav #navbarSupportedContent .row .col-5 .navbar-nav {
+  display: flex;
+  align-items: center;
+  border-top: white solid 1px;
+  border-bottom: white solid 1px;
+  width: 389px;
+}
+body #section1 #carouselExampleSlidesOnly #sectionnav #nav #navbarSupportedContent .row .col-5 .navbar-nav li a {
+  color: white;
+}
+body #section1 #carouselExampleSlidesOnly #sectionnav #nav #navbarSupportedContent .row .col-2 {
+  display: flex;
+  align-items: center;
+}
+body #section1 #carouselExampleSlidesOnly #sectionnav #nav #navbarSupportedContent .row .col-2 img {
+  width: 45%;
+  margin-left: 29px;
+}
+body #section1 #carouselExampleSlidesOnly .carousel-inner {
+  margin: 0px;
+}
+body #section1 #carouselExampleSlidesOnly .carousel-inner .carousel-item img {
+  filter: brightness(10%) blur(6px);
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
