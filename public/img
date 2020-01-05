@@ -15775,34 +15775,26 @@ body {
   margin: 0;
 }
 body #section4 {
-  border: red;
   background-color: white;
 }
 body #section4 #containercarte #sectionform {
   background-image: url(../../public/images/book_table_bg.jpg);
   height: 500px;
   width: 700px;
-  border: red solid;
   border-radius: 12px;
 }
-body #section4 #containercarte #sectionform .row {
-  border: solid purple;
-}
 body #section4 #containercarte #sectionform .row #col61 {
-  border: dotted purple;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 body #section4 #containercarte #sectionform .row #col61 input {
-  border: solid green;
   margin-top: 12px;
   border: none;
   border-radius: 6px;
   height: 37px;
 }
 body #section4 #containercarte #sectionform .row #col62 {
-  border: dotted red;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -16054,4 +16046,4 @@ body #section2 .section21 p .span1 {
   color: red;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=img.map */
