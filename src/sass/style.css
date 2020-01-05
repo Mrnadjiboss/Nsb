@@ -15777,6 +15777,9 @@ body {
 body #section4 {
   background-color: white;
 }
+body #section4 #containercarte #sectionlegume {
+  border: solid blue;
+}
 body #section4 #containercarte #sectionform {
   background-image: url(../../public/images/book_table_bg.jpg);
   height: 500px;

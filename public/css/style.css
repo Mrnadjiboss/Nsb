@@ -15774,35 +15774,195 @@ readers do not read off random characters that represent icons */
 body {
   margin: 0;
 }
+body #section5 {
+  background-image: url("../../public/images/testimonials_background.jpg");
+}
+body #section5 .row .col-2 {
+  border: solid red;
+  display: flex;
+  justify-content: space-around;
+}
+body #section5 .row .col-2 img {
+  border: white 4px solid;
+  border-radius: 50%;
+  width: 96%;
+}
+body #section5 .row .col-4 {
+  border: blue solid;
+  display: flex;
+  justify-content: space-around;
+}
+body #section5 .row .col-4 .divcol {
+  height: 200px;
+  width: 300px;
+  background-color: #11ffee00;
+  border: solid white 1px;
+  border-radius: 3px;
+}
+body #section5 .row .col-4 .divcol p {
+  color: white;
+}
+body #section5 .row .col-4 .divcol .p {
+  color: red;
+}
+body #section5 .row .col-4 .divcol h4 {
+  color: white;
+}
+body #section5 h3 {
+  font-family: vidal;
+  color: white;
+  text-align: center;
+}
+body #section5 h3 span {
+  font-family: vidal;
+  color: red;
+}
 body #section4 {
-  border: red;
   background-color: white;
+  margin-top: 100px;
+}
+body #section4 .button {
+  border: solid yellow;
+  position: relative;
+  left: 193px;
+}
+body #section4 #sectioninsta {
+  border: solid black;
+}
+body #section4 #sectioninsta .divprix2 {
+  background-color: red;
+  width: 350px;
+  height: 40px;
+  border-radius: 5px;
+  position: relative;
+  top: 259px;
+  z-index: 1;
+  left: 659px;
+}
+body #section4 #sectioninsta .divprix2 p {
+  color: white;
+}
+body #section4 #sectioninsta .divprix2 p span {
+  font-style: bold;
+  color: white;
+  font-weight: bold;
+  font-size: 26px;
+}
+body #section4 #sectioninsta .divprix {
+  background-color: red;
+  width: 350px;
+  height: 40px;
+  border-radius: 5px;
+  position: relative;
+  top: 292px;
+  z-index: 1;
+  left: 96px;
+}
+body #section4 #sectioninsta .divprix p {
+  color: white;
+}
+body #section4 #sectioninsta .divprix p span {
+  font-style: bold;
+  color: white;
+  font-weight: bold;
+  font-size: 26px;
+}
+body #section4 #sectioninsta .row {
+  border: solid yellow;
+}
+body #section4 #sectioninsta .row #col6 {
+  display: flex;
+  flex-direction: column;
+}
+body #section4 #sectioninsta .row #col6 span {
+  border: blue solid;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+body #section4 #sectioninsta .row .col-6 {
+  border: solid green;
+  display: flex;
+  justify-content: space-around;
+}
+body #section4 #sectioninsta .row .col-6 img {
+  border: solid lightgray 4px;
+  width: 350px;
+  height: 250px;
+  border-radius: 11px;
+}
+body #section4 button {
+  border: none;
+  margin-left: 270px;
+  margin-top: 58px;
+  height: 49px;
+  width: 120px;
+  border-radius: 23px;
+  color: white;
+  background-color: red;
 }
 body #section4 #containercarte #sectionform {
   background-image: url(../../public/images/book_table_bg.jpg);
   height: 500px;
   width: 700px;
-  border: red solid;
   border-radius: 12px;
 }
 body #section4 #containercarte #sectionform .row {
   border: solid purple;
 }
 body #section4 #containercarte #sectionform .row #col61 {
-  border: dotted purple;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-body #section4 #containercarte #sectionform .row #col61 input {
-  border: solid green;
+body #section4 #containercarte #sectionform .row #col61 .input1 {
+  margin-top: 12px;
+  border: none;
+  border-radius: 6px;
+  height: 37px;
+}
+body #section4 #containercarte #sectionform .row #col61 .input2 {
+  margin-top: 12px;
+  border: none;
+  border-radius: 6px;
+  height: 37px;
+}
+body #section4 #containercarte #sectionform .row #col61 .input3 {
+  margin-top: 12px;
+  border: none;
+  border-radius: 6px;
+  height: 37px;
+}
+body #section4 #containercarte #sectionform .row #col61 .input4 {
+  margin-top: 12px;
+  border: none;
+  border-radius: 6px;
+  height: 37px;
+}
+body #section4 #containercarte #sectionform .row #col61 .input5 {
+  margin-top: 12px;
+  border: none;
+  border-radius: 6px;
+  height: 37px;
+}
+body #section4 #containercarte #sectionform .row #col61 .input6 {
+  margin-top: 12px;
+  border: none;
+  border-radius: 6px;
+  height: 37px;
+}
+body #section4 #containercarte #sectionform .row #col61 .input7 {
+  margin-top: 12px;
+  border: none;
+  border-radius: 6px;
+  height: 37px;
+}
+body #section4 #containercarte #sectionform .row #col61 .input8 {
   margin-top: 12px;
   border: none;
   border-radius: 6px;
   height: 37px;
 }
 body #section4 #containercarte #sectionform .row #col62 {
-  border: dotted red;
   display: flex;
   align-items: center;
   flex-direction: column;
