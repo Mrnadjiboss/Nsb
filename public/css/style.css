@@ -15774,6 +15774,112 @@ readers do not read off random characters that represent icons */
 body {
   margin: 0;
 }
+<<<<<<< HEAD
+=======
+body .divfoot {
+  background-color: red;
+  height: 28px;
+  width: 490pw;
+  position: relative;
+  bottom: 20px;
+}
+body #footer {
+  background-image: url(../../public/images/footer_background.jpg);
+  border: solid black;
+  background-repeat: norepeat;
+}
+body #footer p {
+  color: white;
+}
+body #footer h4 {
+  color: white;
+}
+body #footer #mainrow {
+  border: blue solid;
+  border: dotted green;
+}
+body #footer #mainrow .row21 {
+  border: BLUE SOLID;
+}
+body #footer #mainrow .row21 i {
+  color: #fffffa;
+}
+body #footer #mainrow .row22 {
+  border: yellow solid;
+  margin-top: 20px;
+}
+body #footer #mainrow #secondaryrow {
+  border: solid green;
+  display: flex;
+  margin-top: 10px;
+}
+body #footer #mainrow .col41 {
+  border: blue solid;
+}
+body #footer #mainrow .col42 {
+  border: green solid;
+}
+body #footer #mainrow .col43 {
+  border: yellow solid;
+}
+body #footer #mainrow .col-4 {
+  display: flex;
+  flex-direction: column;
+}
+body #footer #mainrow .col-4 h4 {
+  font-weight: bold;
+  color: white;
+}
+body #footer #mainrow .col-4 button {
+  background-color: red;
+  border-radius: 23px;
+  color: white;
+  border: none;
+  height: 44px;
+}
+body #section6 {
+  border: SOLID BLACK;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body #section6 .divsection6 {
+  height: 370px;
+  width: 370px;
+  border-radius: 12px;
+  background-color: red;
+  display: flex;
+}
+body #section6 .divsection6 .row {
+  display: flex;
+  flex-direction: row;
+}
+body #section6 .divsection6 .row .col-12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body #section6 .divsection6 .row .col-12 hr {
+  border: solid white 0.8px;
+  width: 330px;
+}
+body #section6 .divsection6 .row .col-12 i {
+  color: white;
+}
+body #section6 .divsection6 .row .col-12 .texte2 {
+  color: white;
+  text-align: center;
+}
+body #section6 h3 {
+  color: black;
+  font-family: vidal;
+  text-align: center;
+}
+body #section6 h3 span {
+  color: red;
+  font-family: vidal;
+}
+>>>>>>> 12de814... navabar100%
 body #section5 {
   background-image: url("../../public/images/testimonials_background.jpg");
 }
@@ -16084,6 +16190,9 @@ body #section1 #carouselExampleSlidesOnly #sectionnav #nav #navbarSupportedConte
 }
 body #section1 #carouselExampleSlidesOnly #sectionnav #nav #navbarSupportedContent .row .col-5 .navbar-nav li a {
   color: white;
+}
+body #section1 #carouselExampleSlidesOnly #sectionnav #nav #navbarSupportedContent .row .col-5 .navbar-nav li:hover {
+  background-color: red;
 }
 body #section1 #carouselExampleSlidesOnly #sectionnav #nav #navbarSupportedContent .row .col-2 {
   display: flex;
