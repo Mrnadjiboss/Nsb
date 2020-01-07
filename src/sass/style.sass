@@ -11,14 +11,14 @@ body
         width: 490pw
         position: relative
         bottom:20px
+        
 
     margin: 0
-<<<<<<< HEAD
-=======
     #footer
         background-image: url(../../public/images/footer_background.jpg)
         border: solid black
         background-repeat: norepeat
+
 
         
             
@@ -31,8 +31,12 @@ body
             border: dotted green
             .row21
                 border: BLUE SOLID
+                display: flex
+                justify-content: space-between
+                flex-direction: row
                 i
                     color: rgb(255, 255, 250)
+                    
             .row22
                 border: yellow solid
                 margin-top: 20px
@@ -50,6 +54,7 @@ body
                 display: flex
                 flex-direction: column
                 
+                
                 h4
                     font-weight: bold
                     color: white
@@ -59,6 +64,8 @@ body
                     color: white
                     border: none
                     height: 44px
+                    margin: 20px
+                    
 
                 .button1
                 .button2
@@ -114,7 +121,6 @@ body
             span
                 color: red
                 font-family: vidal
->>>>>>> 12de814... navabar100%
     #section5
         background-image: url("../../public/images/testimonials_background.jpg")
         .row
@@ -154,6 +160,27 @@ body
                 color: red
 
     #section4
+        .imbl
+            position: relative
+            left: 950px
+            bottom: 0px
+            border: solid red
+
+        .imbr
+            position: relative
+            bottom: 0px
+            right: 150px
+        .imtl
+            position: relative
+            bottom: 1494px
+            right: 287px
+            
+        .imtr
+            position: relative
+            bottom: 1494px
+            left: 603px
+            border: red solid
+        
         // border: red
         
        
@@ -414,8 +441,8 @@ body
         #texte
             border: solid yellow 3px
             position: absolute
-            bottom: 10px
-            left: 100px
+            bottom: 110px
+            left: 40px
             display: flex
             flex-direction: column
             align-items: center
@@ -489,9 +516,9 @@ body
 
                 #nav
                     border: solid green 20px
-                    position: absolute
+                    position: relative
                     bottom: 750px
-                    left: 190px
+                    left: 0px
                     
                     #navbarSupportedContent
                         // border: solid purple 1px
@@ -606,8 +633,10 @@ body
 
                         .col-4
                             border: purple solid
+                            border-radius: 78%
                             img
                                 width: 99%
+                                border-radius: 78%
 
                         .col-7
                             border: pink solid 5px
@@ -645,25 +674,38 @@ body
                 .col-2
                     // border: dotted purple
                     display: flex
-                    align-items: center
+                    align-content: center
                     border-right: solid lightgray 1px
                     border-bottom: solid lightgray 1px
 
                     ul
                         // border-bottom: solid lightgray 1px
-                        list-style: none
+                       
                         // border-bottom: solid lightgray 1px
                         
-                        // display: flex
-                        // align-items: center
+                        display: flex
+                        align-items: center
+                        border: dotted green
+                        // margin-right: 20px
+                        flex-direction: column
+                        padding: 0px
+                        
                         li
                             // border-bottom: solid lightgray 1px
                             list-style: none
                             // border-left: solid lightgray 1px
-                            // border: dotted red
+                            border: dotted red
+                            // padding-right: 0px
+                            // padding-left: 20px
+                            &:hover
+                                border-right: solid red 2px
+                                
                             i
                                 // border: purple solid
-                                opacity: 22%
+                                color: lightgray
+                                
+                                &:hover
+                                    color: rgb(233, 33, 33)
                             
                             h4
                                 font-family: vidal
@@ -690,23 +732,23 @@ body
             margin-left: 70px
             margin-right: 70px
             .img1
-                border: red solid
-                position: absolute
-                top: 940px
+                border: pink solid
+                position: relative
+                bottom: 429px
 
 
             .img2
                 border: red solid
-                position: absolute
-                top: 940px
-                left:1130px
+                position: relative
+                bottom: 429px
+                left:700px
 
             .img3
 
                 border: green dotted
                 position: relative
                 bottom: 0px
-                left:1040px
+                left:840px
 
             .img4
                 border: GREEN solid

@@ -15774,8 +15774,6 @@ readers do not read off random characters that represent icons */
 body {
   margin: 0;
 }
-<<<<<<< HEAD
-=======
 body .divfoot {
   background-color: red;
   height: 28px;
@@ -15800,6 +15798,9 @@ body #footer #mainrow {
 }
 body #footer #mainrow .row21 {
   border: BLUE SOLID;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
 body #footer #mainrow .row21 i {
   color: #fffffa;
@@ -15836,6 +15837,7 @@ body #footer #mainrow .col-4 button {
   color: white;
   border: none;
   height: 44px;
+  margin: 20px;
 }
 body #section6 {
   border: SOLID BLACK;
@@ -15879,7 +15881,6 @@ body #section6 h3 span {
   color: red;
   font-family: vidal;
 }
->>>>>>> 12de814... navabar100%
 body #section5 {
   background-image: url("../../public/images/testimonials_background.jpg");
 }
@@ -15926,6 +15927,28 @@ body #section5 h3 span {
 body #section4 {
   background-color: white;
   margin-top: 100px;
+}
+body #section4 .imbl {
+  position: relative;
+  left: 950px;
+  bottom: 0px;
+  border: solid red;
+}
+body #section4 .imbr {
+  position: relative;
+  bottom: 0px;
+  right: 150px;
+}
+body #section4 .imtl {
+  position: relative;
+  bottom: 1494px;
+  right: 287px;
+}
+body #section4 .imtr {
+  position: relative;
+  bottom: 1494px;
+  left: 603px;
+  border: red solid;
 }
 body #section4 .button {
   border: solid yellow;
@@ -16127,8 +16150,8 @@ body #section1 {
 body #section1 #texte {
   border: solid yellow 3px;
   position: absolute;
-  bottom: 10px;
-  left: 100px;
+  bottom: 110px;
+  left: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16173,9 +16196,9 @@ body #section1 #texte .span4 button:hover {
 }
 body #section1 #carouselExampleSlidesOnly #sectionnav #nav {
   border: solid green 20px;
-  position: absolute;
+  position: relative;
   bottom: 750px;
-  left: 190px;
+  left: 0px;
 }
 body #section1 #carouselExampleSlidesOnly #sectionnav #nav #navbarSupportedContent .row .col-5 {
   display: flex;
@@ -16236,9 +16259,11 @@ body #section2 .section22 .row .col-5 .row2 .col-1 .texte3 {
 }
 body #section2 .section22 .row .col-5 .row2 .col-4 {
   border: purple solid;
+  border-radius: 78%;
 }
 body #section2 .section22 .row .col-5 .row2 .col-4 img {
   width: 99%;
+  border-radius: 78%;
 }
 body #section2 .section22 .row .col-5 .row2 .col-7 {
   border: pink solid 5px;
@@ -16253,18 +16278,29 @@ body #section2 .section22 .row .col-5 .row2 .col-7 .span2 .texte1 {
 }
 body #section2 .section22 .row .col-2 {
   display: flex;
-  align-items: center;
+  align-content: center;
   border-right: solid lightgray 1px;
   border-bottom: solid lightgray 1px;
 }
 body #section2 .section22 .row .col-2 ul {
-  list-style: none;
+  display: flex;
+  align-items: center;
+  border: dotted green;
+  flex-direction: column;
+  padding: 0px;
 }
 body #section2 .section22 .row .col-2 ul li {
   list-style: none;
+  border: dotted red;
+}
+body #section2 .section22 .row .col-2 ul li:hover {
+  border-right: solid red 2px;
 }
 body #section2 .section22 .row .col-2 ul li i {
-  opacity: 22%;
+  color: lightgray;
+}
+body #section2 .section22 .row .col-2 ul li i:hover {
+  color: #e92121;
 }
 body #section2 .section22 .row .col-2 ul li h4 {
   font-family: vidal;
@@ -16283,21 +16319,21 @@ body #section2 .section21 {
   margin-right: 70px;
 }
 body #section2 .section21 .img1 {
-  border: red solid;
-  position: absolute;
-  top: 940px;
+  border: pink solid;
+  position: relative;
+  bottom: 429px;
 }
 body #section2 .section21 .img2 {
   border: red solid;
-  position: absolute;
-  top: 940px;
-  left: 1130px;
+  position: relative;
+  bottom: 429px;
+  left: 700px;
 }
 body #section2 .section21 .img3 {
   border: green dotted;
   position: relative;
   bottom: 0px;
-  left: 1040px;
+  left: 840px;
 }
 body #section2 .section21 .img4 {
   border: GREEN solid;
