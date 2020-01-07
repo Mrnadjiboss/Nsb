@@ -15924,12 +15924,12 @@ body #section4 .imbr {
 }
 body #section4 .imtl {
   position: relative;
-  bottom: 1494px;
+  bottom: 1294px;
   right: 270px;
 }
 body #section4 .imtr {
   position: relative;
-  bottom: 1494px;
+  bottom: 1294px;
   left: 581px;
 }
 body #section4 .button {
@@ -16118,7 +16118,7 @@ body #section1 {
 body #section1 #texte {
   position: absolute;
   bottom: 110px;
-  left: 40px;
+  left: 140px;
   display: flex;
   flex-direction: column;
   align-items: center;
