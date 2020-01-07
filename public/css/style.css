@@ -15776,14 +15776,13 @@ body {
 }
 body .divfoot {
   background-color: red;
-  height: 28px;
+  height: 48px;
   width: 490pw;
   position: relative;
   bottom: 20px;
 }
 body #footer {
   background-image: url(../../public/images/footer_background.jpg);
-  border: solid black;
   background-repeat: norepeat;
 }
 body #footer p {
@@ -15792,12 +15791,7 @@ body #footer p {
 body #footer h4 {
   color: white;
 }
-body #footer #mainrow {
-  border: blue solid;
-  border: dotted green;
-}
 body #footer #mainrow .row21 {
-  border: BLUE SOLID;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -15806,41 +15800,33 @@ body #footer #mainrow .row21 i {
   color: #fffffa;
 }
 body #footer #mainrow .row22 {
-  border: yellow solid;
   margin-top: 20px;
 }
 body #footer #mainrow #secondaryrow {
-  border: solid green;
   display: flex;
   margin-top: 10px;
-}
-body #footer #mainrow .col41 {
-  border: blue solid;
-}
-body #footer #mainrow .col42 {
-  border: green solid;
-}
-body #footer #mainrow .col43 {
-  border: yellow solid;
 }
 body #footer #mainrow .col-4 {
   display: flex;
   flex-direction: column;
+  align-content: center;
 }
 body #footer #mainrow .col-4 h4 {
   font-weight: bold;
   color: white;
+  width: 23px;
+  font-size: 20px;
 }
 body #footer #mainrow .col-4 button {
   background-color: red;
   border-radius: 23px;
   color: white;
   border: none;
-  height: 44px;
-  margin: 20px;
+  height: 40px;
+  border: solid white 1px;
+  margin-top: 10px;
 }
 body #section6 {
-  border: SOLID BLACK;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15885,7 +15871,6 @@ body #section5 {
   background-image: url("../../public/images/testimonials_background.jpg");
 }
 body #section5 .row .col-2 {
-  border: solid red;
   display: flex;
   justify-content: space-around;
 }
@@ -15895,7 +15880,6 @@ body #section5 .row .col-2 img {
   width: 96%;
 }
 body #section5 .row .col-4 {
-  border: blue solid;
   display: flex;
   justify-content: space-around;
 }
@@ -15932,7 +15916,6 @@ body #section4 .imbl {
   position: relative;
   left: 950px;
   bottom: 0px;
-  border: solid red;
 }
 body #section4 .imbr {
   position: relative;
@@ -15948,15 +15931,10 @@ body #section4 .imtr {
   position: relative;
   bottom: 1494px;
   left: 581px;
-  border: red solid;
 }
 body #section4 .button {
-  border: solid yellow;
   position: relative;
   left: 193px;
-}
-body #section4 #sectioninsta {
-  border: solid black;
 }
 body #section4 #sectioninsta .divprix2 {
   background-color: red;
@@ -15996,20 +15974,15 @@ body #section4 #sectioninsta .divprix p span {
   font-weight: bold;
   font-size: 26px;
 }
-body #section4 #sectioninsta .row {
-  border: solid yellow;
-}
 body #section4 #sectioninsta .row #col6 {
   display: flex;
   flex-direction: column;
 }
 body #section4 #sectioninsta .row #col6 span {
-  border: blue solid;
   margin-left: 90px;
   margin-right: 90px;
 }
 body #section4 #sectioninsta .row .col-6 {
-  border: solid green;
   display: flex;
   justify-content: space-around;
 }
@@ -16034,9 +16007,6 @@ body #section4 #containercarte #sectionform {
   height: 500px;
   width: 700px;
   border-radius: 12px;
-}
-body #section4 #containercarte #sectionform .row {
-  border: solid purple;
 }
 body #section4 #containercarte #sectionform .row #col61 {
   display: flex;
@@ -16116,11 +16086,9 @@ body #section4 #containercarte h3 span {
   font-family: vidal;
 }
 body #section3 {
-  border: yellow solid;
   background-color: black;
 }
 body #section3 #containerimg {
-  border: red solid;
   background-color: black;
 }
 body #section3 #containerimg h3 {
@@ -16148,7 +16116,6 @@ body #section1 {
   border: none;
 }
 body #section1 #texte {
-  border: solid yellow 3px;
   position: absolute;
   bottom: 110px;
   left: 40px;
@@ -16182,7 +16149,6 @@ body #section1 #texte p .span5 {
 body #section1 #texte .span4 {
   display: flex;
   justify-content: space-between;
-  border: red solid;
 }
 body #section1 #texte .span4 button {
   border-radius: 26px;
@@ -16195,10 +16161,9 @@ body #section1 #texte .span4 button:hover {
   color: white;
 }
 body #section1 #carouselExampleSlidesOnly #sectionnav #nav {
-  border: solid green 20px;
   position: relative;
-  bottom: 750px;
-  left: 0px;
+  bottom: 748px;
+  left: 40px;
 }
 body #section1 #carouselExampleSlidesOnly #sectionnav #nav #navbarSupportedContent .row .col-5 {
   display: flex;
@@ -16229,25 +16194,19 @@ body #section1 #carouselExampleSlidesOnly .carousel-inner {
   margin: 0px;
 }
 body #section1 #carouselExampleSlidesOnly .carousel-inner .carousel-item img {
-  filter: brightness(10%) blur(6px);
+  filter: brightness(40%) blur(6px);
   width: 100%;
 }
 body #section2 {
-  border: red solid;
   background-image: url(../../public/images/main_bg.jpg);
   background-repeat: no repeat;
 }
-body #section2 .section22 {
-  border: blue solid;
-}
-body #section2 .section22 .row {
-  border: solid red;
-}
 body #section2 .section22 .row .col-5 .row2 {
-  border: red solid 2px;
   display: flex;
   flex-direction: columns;
   align-items: center;
+  border-bottom: solid black 0.6px;
+  border-top: solid black 0.6px;
 }
 body #section2 .section22 .row .col-5 .row2 .col-1 {
   background-color: lightgray;
@@ -16256,9 +16215,9 @@ body #section2 .section22 .row .col-5 .row2 .col-1 {
 }
 body #section2 .section22 .row .col-5 .row2 .col-1 .texte3 {
   color: red;
+  padding-right: 20px;
 }
 body #section2 .section22 .row .col-5 .row2 .col-4 {
-  border: purple solid;
   border-radius: 78%;
 }
 body #section2 .section22 .row .col-5 .row2 .col-4 img {
@@ -16266,12 +16225,8 @@ body #section2 .section22 .row .col-5 .row2 .col-4 img {
   border-radius: 78%;
 }
 body #section2 .section22 .row .col-5 .row2 .col-7 {
-  border: pink solid 5px;
   display: flex;
   align-items: center;
-}
-body #section2 .section22 .row .col-5 .row2 .col-7 .span2 {
-  border: Yellow solid;
 }
 body #section2 .section22 .row .col-5 .row2 .col-7 .span2 .texte1 {
   color: black;
@@ -16285,13 +16240,11 @@ body #section2 .section22 .row .col-2 {
 body #section2 .section22 .row .col-2 ul {
   display: flex;
   align-items: center;
-  border: dotted green;
   flex-direction: column;
   padding: 0px;
 }
 body #section2 .section22 .row .col-2 ul li {
   list-style: none;
-  border: dotted red;
 }
 body #section2 .section22 .row .col-2 ul li:hover {
   border-right: solid red 2px;
@@ -16309,34 +16262,28 @@ body #section2 .section22 .row .col-2 ul li h4 {
 body #section2 .section22 .row .col-2 ul li hr {
   width: 142px;
   margin-right: 40px;
-  border: red solid 1px;
 }
 body #section2 .section21 {
   background-color: white;
-  border: solid blue;
   margin-top: 30px;
   margin-left: 70px;
   margin-right: 70px;
 }
 body #section2 .section21 .img1 {
-  border: pink solid;
   position: relative;
   bottom: 429px;
 }
 body #section2 .section21 .img2 {
-  border: red solid;
   position: relative;
   bottom: 429px;
-  left: 700px;
+  left: 678px;
 }
 body #section2 .section21 .img3 {
-  border: green dotted;
   position: relative;
   bottom: 0px;
   left: 840px;
 }
 body #section2 .section21 .img4 {
-  border: GREEN solid;
   position: relative;
   bottom: 0px;
   right: 130px;
@@ -16344,7 +16291,6 @@ body #section2 .section21 .img4 {
 body #section2 .section21 h3 {
   font-size: 35px;
   font-family: vidal;
-  border: dotted red;
   text-align: center;
 }
 body #section2 .section21 h3 .span1 {
